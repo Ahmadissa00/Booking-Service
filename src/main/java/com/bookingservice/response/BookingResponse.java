@@ -1,9 +1,10 @@
-package com.leetjourny.bookingservice.event;
+package com.bookingservice.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 
@@ -11,9 +12,12 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class BookingEvent {
-    private Long userId;
+public class BookingResponse {
     private Long eventId;
+    private Long userId;
     private Long ticketCount;
     private BigDecimal totalPrice;
+
+
+
 }

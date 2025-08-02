@@ -1,6 +1,6 @@
-package com.leetjourny.bookingservice.repository;
+package com.bookingservice.repository;
 
-import com.leetjourny.bookingservice.entity.Customer;
+import com.bookingservice.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

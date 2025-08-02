@@ -1,6 +1,6 @@
-package com.leetjourny.bookingservice.client;
+package com.bookingservice.client;
 
-import com.leetjourny.bookingservice.response.InventoryResponse;
+import com.bookingservice.response.InventoryResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;

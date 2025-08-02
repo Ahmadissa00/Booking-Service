@@ -1,4 +1,4 @@
-package com.leetjourny.bookingservice.response;
+package com.bookingservice.response;
 
 
 import jakarta.persistence.Column;

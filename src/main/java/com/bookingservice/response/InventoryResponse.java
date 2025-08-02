@@ -1,4 +1,4 @@
-package com.leetjourny.bookingservice.response;
+package com.bookingservice.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,7 +15,7 @@ public class InventoryResponse {
 
     private Long eventId;
     private String event;
-    private int capacity;
+    private Long capacity;
     private ResponseVenue venue;
     private BigDecimal ticketPrice;
 }

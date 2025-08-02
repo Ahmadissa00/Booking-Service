@@ -1,12 +1,12 @@
-package com.leetjourny.bookingservice.service;
+package com.bookingservice.service;
 
-import com.leetjourny.bookingservice.client.InventoryServiceClient;
-import com.leetjourny.bookingservice.entity.Customer;
-import com.leetjourny.bookingservice.event.BookingEvent;
-import com.leetjourny.bookingservice.repository.CustomerRepository;
-import com.leetjourny.bookingservice.request.BookingRequest;
-import com.leetjourny.bookingservice.response.BookingResponse;
-import com.leetjourny.bookingservice.response.InventoryResponse;
+import com.bookingservice.client.InventoryServiceClient;
+import com.bookingservice.entity.Customer;
+import com.bookingservice.event.BookingEvent;
+import com.bookingservice.repository.CustomerRepository;
+import com.bookingservice.request.BookingRequest;
+import com.bookingservice.response.BookingResponse;
+import com.bookingservice.response.InventoryResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

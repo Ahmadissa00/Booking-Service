@@ -1,8 +1,8 @@
-package com.leetjourny.bookingservice.controller;
+package com.bookingservice.controller;
 
-import com.leetjourny.bookingservice.request.BookingRequest;
-import com.leetjourny.bookingservice.response.BookingResponse;
-import com.leetjourny.bookingservice.service.BookingService;
+import com.bookingservice.request.BookingRequest;
+import com.bookingservice.response.BookingResponse;
+import com.bookingservice.service.BookingService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

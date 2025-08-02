@@ -1,4 +1,4 @@
-package com.leetjourny.bookingservice.entity;
+package com.bookingservice.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
